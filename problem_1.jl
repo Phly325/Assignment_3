@@ -75,7 +75,7 @@ eu = MarkovChain(Y, ["unemployed", "employed"])
 Q = eu_sample_path(Y, sample_size = 10_000)
 
 # ╔═╡ 192b6ed7-5d79-4c74-970d-72c031069817
-e = Categorical([0.4, 0.2, 0.2])
+e = Categorical([0.4, 0.3, 0.3])
 
 # ╔═╡ f6dc387b-7136-44c6-83ff-343177766de5
 Q = simulate(eu, 10_000);
@@ -87,7 +87,7 @@ Y = [0.3 0.7; 0.4 0.6]
 Y = [0.3 0.7; 0.4 0.6]
 
 # ╔═╡ 3d42b570-5dfc-4d0e-83c1-8aa7b289fcdd
-e = Categorical([0.4, 0.2, 0.2])
+e = Categorical([0.4, 0.3, 0.3])
 
 # ╔═╡ Cell order:
 # ╠═bba37df0-dcfe-11eb-200c-6bb0496f57b9
